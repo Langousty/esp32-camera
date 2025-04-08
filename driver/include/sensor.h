@@ -84,6 +84,10 @@ typedef enum {
 typedef enum {
     FRAMESIZE_96X96,    // 96x96
     FRAMESIZE_QQVGA,    // 160x120
+    //CUSTOM RES
+    FRAMESIZE_128X64,   // 128x64
+    FRAMESIZE_256X128,  // 256x128
+    // END CUSTOM RES
     FRAMESIZE_QCIF,     // 176x144
     FRAMESIZE_HQVGA,    // 240x176
     FRAMESIZE_240X240,  // 240x240
@@ -127,7 +131,9 @@ typedef enum {
     ASPECT_RATIO_21X9,
     ASPECT_RATIO_5X4,
     ASPECT_RATIO_1X1,
-    ASPECT_RATIO_9X16
+    ASPECT_RATIO_9X16,
+    ASPECT_RATIO_2X1
+
 } aspect_ratio_t;
 
 typedef enum {
