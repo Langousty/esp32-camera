@@ -59,7 +59,11 @@ static const DRAM_ATTR ov2640_ratio_settings_t ratio_table[] = {
     {  50,   0, 1500, 1200 }, //5x4
     { 200,   0, 1200, 1200 }, //1x1
     { 462,   0,  676, 1200 }, //9x16
-    {   0, 200, 1600,  800 }  //2x1
+    {   0, 200, 1600,  800 }, //2x1
+    {   0, 200, 1600,  800 }, //2x1 50mm placeholder (OV2640 unused on Pixless)
+    {   0, 200, 1600,  800 }, //2x1 75mm placeholder
+    {   0, 200, 1600,  800 }, //2x1 135mm placeholder
+    {   0, 200, 1600,  800 }  //2x1 200mm placeholder
 
 };
 

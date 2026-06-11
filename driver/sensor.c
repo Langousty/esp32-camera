@@ -25,6 +25,10 @@ const resolution_info_t resolution[FRAMESIZE_INVALID] = {
     // CUSTOM RES
     {  128,   64, ASPECT_RATIO_2X1   }, /* cstm 128 */
     {  256,  128, ASPECT_RATIO_2X1   }, /* cstm 256 */
+    {  256,  128, ASPECT_RATIO_2X1_50  }, /* zoom 50mm  */
+    {  256,  128, ASPECT_RATIO_2X1_75  }, /* zoom 75mm  */
+    {  256,  128, ASPECT_RATIO_2X1_135 }, /* zoom 135mm */
+    {  256,  128, ASPECT_RATIO_2X1_200 }, /* zoom 200mm */
     // END CUSTOM RES
     {  176,  144, ASPECT_RATIO_5X4   }, /* QCIF  */
     {  240,  176, ASPECT_RATIO_4X3   }, /* HQVGA */
