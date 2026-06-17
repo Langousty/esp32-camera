@@ -20,6 +20,7 @@ static const ratio_settings_t ratio_table[] = {
     { 2560, 1280,   0, 320, 2623, 1632, 32, 16, 2844, 1422 }, //2X1  35mm
     { 1792,  896, 384, 512, 2239, 1439, 32, 16, 2844, 1422 }, //2x1 50mm
     { 1192,  596, 684, 662, 1939, 1289, 32, 16, 2844, 1422 }, //2x1 75mm
+    {  992,  496, 784, 712, 1839, 1239, 32, 16, 2844, 1422 }, //2x1 90mm (binning ON, scale ON; window 1056x528 centered, vertical downscale 264->128 = 2.06x >= 1.4x floor; timing matches binned focals)
     {  664,  332, 948, 794, 1675, 1157, 32, 16, 2844, 1422 }, //2x1 135mm
     {  448,  224,1056, 848, 1567, 1103, 32, 16, 2060,  711 }  //2x1 200mm (binning OFF + scale ON, clean 2.0x downscale 512x256->256x128. total_x/y (=HTS/VTS in non-binned) cut 2844/1422 -> 2060/711 to match binned-level frame timing so FPS == other focals; only blanking, window unchanged. Binning impossible here: vertical ISP scaler breaks below ~1.4x and 200mm FOV can't bin >=1.4x.)
 };

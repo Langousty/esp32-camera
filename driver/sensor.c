@@ -27,6 +27,7 @@ const resolution_info_t resolution[FRAMESIZE_INVALID] = {
     {  256,  128, ASPECT_RATIO_2X1   }, /* cstm 256 */
     {  256,  128, ASPECT_RATIO_2X1_50  }, /* zoom 50mm  */
     {  256,  128, ASPECT_RATIO_2X1_75  }, /* zoom 75mm  */
+    {  256,  128, ASPECT_RATIO_2X1_90  }, /* zoom 90mm  */
     {  256,  128, ASPECT_RATIO_2X1_135 }, /* zoom 135mm */
     {  256,  128, ASPECT_RATIO_2X1_200 }, /* zoom 200mm */
     // END CUSTOM RES
